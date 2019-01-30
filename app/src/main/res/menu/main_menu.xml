@@ -1,0 +1,18 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Copy"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="ifRoom"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/snapshot"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Screenshot"
+        app:showAsAction="ifRoom" />
+</menu>
